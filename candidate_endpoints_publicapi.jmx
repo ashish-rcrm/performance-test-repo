@@ -14,12 +14,12 @@
     <hashTree>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="1369691699">
-            <stringProp name="49">1</stringProp>
-            <stringProp name="50">2</stringProp>
-            <stringProp name="50">2</stringProp>
-            <stringProp name="1567">10</stringProp>
-            <stringProp name="50">2</stringProp>
+          <collectionProp name="266302373">
+            <stringProp name="472454735">${threadCount}</stringProp>
+            <stringProp name="-1230029071">${delay}</stringProp>
+            <stringProp name="672967108">$startup}</stringProp>
+            <stringProp name="-1777692703">${holdLoad}</stringProp>
+            <stringProp name="378225136">${shutdown}</stringProp>
           </collectionProp>
         </collectionProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -30,7 +30,7 @@
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-          <stringProp name="filename">/Users/ashishbhatia/Downloads/performance-test-repo/multi_user_csv_1USER_DEV - multi_user_csv_300_users_100.csv</stringProp>
+          <stringProp name="filename">${filepath}</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">email_id,baseurl,apikey,version,count</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
