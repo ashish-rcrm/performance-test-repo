@@ -30,7 +30,7 @@
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-          <stringProp name="filename">/Users/ashishbhatia/Downloads/performance-test-repo/${file_path}</stringProp>
+          <stringProp name="filename">${file_path}</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">email_id,baseurl,apikey,version,count</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
@@ -751,7 +751,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">/Users/ashishbhatia/Desktop/TestResultManual.jtl</stringProp>
+        <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
